@@ -1,0 +1,263 @@
+/* Lotaris */
+/* © 2017 Connor Hyde, Sam Brown. */
+
+/* start text code */
+.text-blue, .text-blue a {
+	color: #0000ff;
+}
+.text-green, .text-blue a {
+	color: #03ec03;
+}
+.text-dark-red, .text-blue a {
+	color: #900000;
+}
+.text-red, .text-red a {
+	color: #ff0000;
+}
+.text-orange, .text-orange a {
+	color: #cc6600;
+}
+.text-purple, .text-purple a {
+	color: #660066;
+}
+.text-pink, .text-pink a {
+	color: #ff0066;
+}
+.text-white, .text-white a {
+	color: #fff;
+}
+.text-dark-grey {
+	color: #303030;
+}
+.text-light-grey {
+	color: #c0c0c0;
+}
+.text-blue a:hover {
+	color: #0000ff; 
+}
+.text-green a:hover {
+	color: #00ff00; 
+}
+.text-red a:hover {
+	color: #cf0000;
+}
+.text-dark-red a:hover {
+	color: #a00000;
+}
+.text-light-grey a:hover {
+	color: #e0e0e0;
+} 
+.text-dark-grey a:hover {
+	color: #131313;
+}
+.text-orange a:hover {
+	color: #ff9933;
+}
+.text-purple a:hover {
+	color: #660066;
+}
+.text-pink a:hover {
+	color: #ff3399;
+}
+.text-white a:hover {
+	color: #e00000;
+}
+.text-size-72 {
+	font-size: 72px;
+}
+.text-size-48 {
+	font-size: 48px;
+}
+.text-size-32 {
+	font-size: 32px;
+}
+.text-size-24 {
+	font-size: 24px;
+}
+.text-size-20 {
+	font-size: 20px;
+}
+.text-size-16 {
+	font-size: 16px;
+}
+.text-size-10 {
+	font-size: 10px;
+}
+.text-size-8 {
+	font-size: 8px;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+/* end text code */
+body {
+	color: #808080;
+	background-color: #ffffff;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif, "Times New Roman", serif;
+	font-size: 12px;
+	margin: 0;
+}
+/* start navbar code */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 45px;
+	background-color: #006eff;
+	overflow: hidden;
+	
+}
+a, p a {
+text-decoration: none;
+color: #808080; }
+a:hover, p a:hover {
+color: #000000; }
+
+li a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-size: 18px;
+}
+li a:hover {
+background-color: #00a1ff; 
+}
+li {
+	float: left;
+	margin: 0;
+}
+/* end navbar code */
+/* start button code */
+.button, .button a {
+	background-color: #000040;
+	border: none;
+	color: white;
+	padding: 12px 28px;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration:: none;
+	display: inline-block;
+	font-size: 14px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-family: "Open Sans";
+}
+.button a:hover {
+	background-color: #00002b;
+
+}
+.button-small {
+	padding: 12px 28px;
+}
+.button-medium {
+	padding: 24px 46px;
+	border-radius: 4px;
+	font-size: 22px;
+}
+.button-large {
+	padding: 48px 92px;
+	border-radius: 6px;
+	font-size: 36px;
+}
+.button-blue, .button-blue a {
+	background-color: #0000ff;
+}
+.button-green, .button-green a {
+	background-color: #03bc03;
+	color: #fff;
+}
+.button-red, .button-red a {
+	background-color: #ff0000;
+}
+.button-black, .button-black a {
+	color: #ffffff;
+	background-color: #000000;
+}
+.button-light-grey, .button-light-grey a {
+	color: #000000;
+	background-color: #c0c0c0;
+}
+.button-dark-grey, .button-dark-grey a {
+	color: #ffffff;
+	background-color: #131313;
+}
+.button-orange, .button-orange a {
+	color: #cc6600;
+}
+.button-purple, .button-purple a {
+	color: #660066;
+}
+.button-pink, .button-pink a {
+	color: #ff0066;
+}
+.button-dark-red, .button-dark-red a {
+	color: #900000;
+}
+.button-white, .button-white a {
+	color: #131313;
+	background-color: #ffffff
+}
+.button-blue:hover, .button-blue a:hover {
+	background-color: #0000cf;
+}
+.button-green:hover, .button-green a:hover {
+	background-color; #03dc03;
+}
+.button-red:hover, .button-red a:hover {
+	background-color: #cf0000;
+}
+.button-black:hover, .button-black a:hover {
+	background-color: #131313;
+}
+.button-light-grey:hover, .button-light-grey a:hover {
+	background-color: #e0e0e0;
+}
+.button-dark-grey:hover, .button-dark-grey a:hover {
+	background-color: #131313;
+}
+.button-orange:hover, .button-orange a:hover {
+	background-color; #ff9933;
+}
+.button-purple:hover, .button-purple a:hover {
+	background-color: #9900ff
+}
+.button-pink:hover, .button-pink a:hover {
+	background-color: #ff3399;
+}
+.button-dark-red:hover, .button-dark-red a:hover {
+	background-color: #a00000;
+}
+.button-white:hover, .button-white a:hover {
+	background-color: #e00000;
+}
+
+/* end button code */
+.img-placeholder {
+	background-color: #808080;
+	width: 256px;
+	height: 256px;
+}
+
+/* start announce code */
+.announce-bar: {
+	width: 100%;
+	height: 100px;
+	background-color: #406040;
+/* end announce code */
+}
+footer {
+	color: #000000;
+}
+footer a {
+	color: #000000;
+}
